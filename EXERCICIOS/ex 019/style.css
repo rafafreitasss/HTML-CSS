@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: beige;
+}
+#principal{
+background-color: rgb(139, 139, 124);
+}
+
+.basico{
+    color: blueviolet;
+}
+
+.intermediario{
+    color: chocolate;
+}
+
+.avancado{
+    color: brown;
+}
+
+.titulo{
+    background-color: bisque;
+}

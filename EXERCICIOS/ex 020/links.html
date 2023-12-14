@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        a:visited {
+            color: chocolate;
+        }
+
+        a:active {
+            color: cadetblue;
+        }
+
+        a::after {
+            content:' ☜';
+        }
+
+        a::before {
+            content:'☞ ';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com">YouTube</a></li>
+        <li><a href="https://www.instagram.com">Instagram</a></li>
+        <li><a href="https://web.facebook.com/?locale=pt_BR&_rdc=1&_rdr">Facebook</a></li>
+    </ul>
+</body>
+</html>
