@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de fundo com imagens</title>
+    <style>
+        .quadrado {
+            height: 300px;
+            width: 300px;
+            background-color: blanchedalmond;
+            border-radius: 20px;
+            display: inline-block;
+            margin: auto;
+            border: 5px solid black;
+            
+        }
+
+    #q1 {
+            background-color: rgb(42, 165, 138);
+        }
+    #q2 {
+        background-image: linear-gradient(to bottom, yellow, red);
+    }
+    #q3 {
+        background-image: url(imagens/pattern004.png);
+    }
+
+    </style>
 </head>
 <body>
-    <div >
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div>
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div>
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
