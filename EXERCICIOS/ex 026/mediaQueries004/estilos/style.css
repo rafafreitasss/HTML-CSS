@@ -4,7 +4,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.em;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -17,6 +17,8 @@ html, body {
 
 body {
     background: black url(../imgs/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 main {
@@ -26,3 +28,24 @@ main {
     border-radius: 10px;
     padding: 10px;
 }
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.541);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#phone { display: block; }
+
+img#tablet { display: none; }
+
+img#print { display: none; }
+
+img#tv { display: none; }
+
+img#pc { display: none; }
